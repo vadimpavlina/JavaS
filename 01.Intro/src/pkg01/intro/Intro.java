@@ -8,76 +8,73 @@ package pkg01.intro;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import javax.swing.JOptionPane;
 
 /**
  *
- * @author George
+ * @author vadim
  */
 public class Intro {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) throws IOException {
-        // TODO code application logic here
-        
-        BufferedReader buffered = new BufferedReader(new InputStreamReader(System.in));
-        //System.out.print("Hello world");
-        
-        //System.out.println("Hello world");
-        
-        //JOptionPane.showMessageDialog(null,"Hello World");
-        
-        //System.out.print("Ender number : ");
-        //int a = Integer.parseInt(buffered.readLine());
-        //System.out.println("Resuld = " + a);
-        
-        //System.out.print("Ender first number : ");
-        //int num1 = Integer.parseInt(buffered.readLine());
-        
-        //System.out.print("Ender second number : ");
-        //int num2 = Integer.parseInt(buffered.readLine());
-        
-        //double result = (double)num1 / num2;
-        //System.out.println("Result = " + result);
-           
-        
-        //if(num1 < num2){
-        //    System.out.println("num1 < num2");
-        //}else if (num1 > num2){
-        //    System.out.println("num1 > num2");
-        //}else{
-        //    System.out.println("num1 = num2");
-        //}
-        
-        
-        //String num1, num2;
-        //num1 = JOptionPane.showInputDialog(null, "Ender first number", JOptionPane.QUESTION_MESSAGE);
-        //num2 = JOptionPane.showInputDialog(null, "Ender second number", JOptionPane.QUESTION_MESSAGE);
-        
-        //int number1 = Integer.parseInt(num1);
-        //int number2 = Integer.parseInt(num2);
-        //
-        //if(number1 < number2){
-        //    JOptionPane.showMessageDialog(null, "num1 < num2");
-        //}else if (number1 > number2){
-        //    JOptionPane.showMessageDialog(null, "num1 > num2");
-        //}else{
-        //    JOptionPane.showMessageDialog(null, "num1 = num2");
-        //}
-        
-        
-        //int[] arr = new int[10];
-        //for (int i = 0; i < arr.length; i++) {
-        //    arr[i] = (int)(Math.random() *50 +1);
-        //}
-        //
-        //  for (int i = 0; i < arr.length; i++) {
-        //    System.out.println(arr[i]);
-        //}
-        
-        
+	/**
+	 * @param args the command line arguments
+	 */
+	public static void main(String[] args) throws IOException {
+		// TODO code application logic here
+
+		BufferedReader buffered = new BufferedReader(new InputStreamReader(System.in));
+		// System.out.print("Hello world");
+
+		// System.out.println("Hello world");
+
+		// JOptionPane.showMessageDialog(null,"Hello World");
+
+		// System.out.print("Ender number : ");
+		// int a = Integer.parseInt(buffered.readLine());
+		// System.out.println("Resuld = " + a);
+
+		// System.out.print("Ender first number : ");
+		// int num1 = Integer.parseInt(buffered.readLine());
+
+		// System.out.print("Ender second number : ");
+		// int num2 = Integer.parseInt(buffered.readLine());
+
+		// double result = (double)num1 / num2;
+		// System.out.println("Result = " + result);
+
+		// if(num1 < num2){
+		// System.out.println("num1 < num2");
+		// }else if (num1 > num2){
+		// System.out.println("num1 > num2");
+		// }else{
+		// System.out.println("num1 = num2");
+		// }
+
+		// String num1, num2;
+		// num1 = JOptionPane.showInputDialog(null, "Ender first number",
+		// JOptionPane.QUESTION_MESSAGE);
+		// num2 = JOptionPane.showInputDialog(null, "Ender second number",
+		// JOptionPane.QUESTION_MESSAGE);
+
+		// int number1 = Integer.parseInt(num1);
+		// int number2 = Integer.parseInt(num2);
+		//
+		// if(number1 < number2){
+		// JOptionPane.showMessageDialog(null, "num1 < num2");
+		// }else if (number1 > number2){
+		// JOptionPane.showMessageDialog(null, "num1 > num2");
+		// }else{
+		// JOptionPane.showMessageDialog(null, "num1 = num2");
+		// }
+
+		// int[] arr = new int[10];
+		// for (int i = 0; i < arr.length; i++) {
+		// arr[i] = (int)(Math.random() *50 +1);
+		// }
+		//
+		// for (int i = 0; i < arr.length; i++) {
+		// System.out.println(arr[i]);
+		// }
+
 //        int row = 5;
 //        int col = 5;
 //        int[][] arr = new int[row][col];
@@ -96,9 +93,7 @@ public class Intro {
 //            System.out.println();
 //        }
 
-
 /////////////////////////////////////////----TASKS----////////////////////////////////////////////////////
-
 
 //-------------------------------------1------------------------------------------
 
@@ -115,7 +110,7 @@ public class Intro {
 //                System.out.println(arr[i] + " < 0");
 //                
 //        }
-        
+
 //---------------------------------2---------------------------------
 
 //        System.out.print("Ender first number : ");
@@ -167,7 +162,7 @@ public class Intro {
 //            }
 //            count++;
 //        }
-        
+
 //----------------------------------4-------------------------
 
 //        int sum = 0,num, count = 0;
@@ -179,7 +174,7 @@ public class Intro {
 //            count++;
 //        } while (count!=5);
 //        System.out.println("Sum of your digits =  " + sum);
-          
+
 //------------------------------5------------------------------
 
 //        int dice;
@@ -275,8 +270,6 @@ public class Intro {
 //        for (int i = 0; i < arr3.length; i++) {        
 //            System.out.print(arr3[i] + " ");
 //        }
-        
-        
 
 //-------------------------------table-of-mult-------------------
 
@@ -302,7 +295,7 @@ public class Intro {
 //          System.out.print(B[i] +  "\t");
 //      }
 //      System.out.println();
-        
-    }
-    
+
+	}
+
 }
